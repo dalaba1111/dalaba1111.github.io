@@ -24,19 +24,28 @@
 }
 
 body {
-    background-color: rgba(11,156,49,0.8);
+    background-color: black;
 
 }
 
 .text {
+    color: aliceblue;
     text-align: center;
     transform: translate(0%, 50%);
 }
 
-img {
+
+.image2 {
     position: absolute;
     top: 25%; left: 50%;
-    transform: translate(-50%, 25%);
+    transform: translate(50%, 25%);
+    width: 500px; height: 500px;
+    object-fit: scale-down;
+}
+.image3 {
+    position: absolute;
+    top: 25%; left: 50%;
+    transform: translate(-150%, 25%);
     width: 500px; height: 500px;
     object-fit: scale-down;
 }
@@ -44,6 +53,6 @@ img {
 #count {
     position: relative;
     text-align: center;
-    transform: translate(25%, 1000%);
+    transform: translate(0%, 600%);
     color: gold;
 }
