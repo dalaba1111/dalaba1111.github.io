@@ -1,0 +1,62 @@
+.button {
+    border: none;
+    color: black;
+    padding: 72px 96px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 25%; left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    justify-content: center;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.button1:hover {
+    background-color: #ffd700;
+    color: white;
+}
+
+body {
+    background-color: black;
+
+}
+
+.text {
+    color: aliceblue;
+    text-align: center;
+    transform: translate(0%, 50%);
+}
+
+
+.image2 {
+    position: absolute;
+    top: 25%; left: 50%;
+    transform: translate(50%, 25%);
+    object-fit: scale-down;
+}
+.image3 {
+    position: absolute;
+    top: 25%; left: 50%;
+    transform: translate(-150%, 25%);
+    object-fit: scale-down;
+}
+
+#count {
+    position: absolute;
+    top: 25%; left: 50%;
+    text-align: center;
+    transform: translate(-50%, 600%);
+    color: gold;
+    display: flex;
+    justify-content: center;
+}
